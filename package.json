@@ -1,0 +1,20 @@
+{
+  "name": "microsoft-clone",
+  "version": "1.0.0",
+  "description": "Microsoft.com Front-end clone using only HTML and Tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.1.3"
+  }
+}

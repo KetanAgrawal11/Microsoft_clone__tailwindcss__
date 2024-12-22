@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsoft Cloud, Computers, Apps &amp; Gaming</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="mobile-nav flex p-4 justify-between bg-red-50 items-center md:hidden">
+            <div class="text-black flex justify-between w-16">
+                <i class="fa-solid fa-bars text-xl"></i>
+                <i class="fa-solid fa-magnifying-glass text-xl"></i>
+            </div>
+            <div class="logo">
+                <img src="assests/images/logo.png" alt="Microsoft" class="h-7" >
+            </div>
+            <div class="flex justify-between w-16">
+                <i class="fa-solid fa-cart-shopping text-xl"></i>
+                <i class="fa-regular fa-circle-user text-xl"></i>
+            </div>
+        </div>
+
+        <div class="large-nav hidden p-4 justify-between items-center w-[95vw] m-auto md:flex lg:px-16 px-8 max-w-7xl">
+            <div class="flex w-[55vw]">
+                <div class="logo">
+                    <img src="assests/images/logo.png" alt="Microsoft" class="h-6" />
+                </div>
+                <div class="text-black flex justify-around w-[35vw] max-w-xl lg:ml-8 ml-4 text-xs items-center">
+                    <span class="hover:underline hover:underline-offset-8 cursor-pointer decoration-2"><a
+                            href="#">Microsoft 365</a></span>
+                    <span class="hover:underline hover:underline-offset-8 cursor-pointer decoration-2"><a
+                            href="#">Teams</a></span>
+                    <span class="hover:underline hover:underline-offset-8 cursor-pointer decoration-2"><a
+                            href="#">Copilot</a></span>
+                    <span><a href="#">Windows</a></span>
+                    <span
+                        class="hover:underline hover:underline-offset-8 cursor-pointer decoration-2 hidden lg:block"><a
+                            href="#">Surface</a></span>
+                    <span
+                        class="hover:underline hover:underline-offset-8 cursor-pointer decoration-2 hidden lg:block"><a
+                            href="#">Xbox</a></span>
+                    <span
+                        class="hover:underline hover:underline-offset-8 cursor-pointer decoration-2 hidden lg:block"><a
+                            href="#">Support</a></span>
+                </div>
+            </div>
+            <div class="flex justify-around min-w-64">
+                <select name="products" id="" class="bg-transparent border-none text-sm">
+                    <option value="All Microsoft">All Microsoft</option>
+                </select>
+                <i class="fa-solid fa-magnifying-glass text-xl"></i>
+                <i class="fa-solid fa-cart-shopping text-xl"></i>
+                <i class="fa-regular fa-circle-user text-xl"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="flex md:bg-[#f2f2f2] py-6 md:py-4 flex-col md:flex-row items-center m-auto max-w-[1350px]">
+            <div class="bg-[#f2f2f2]">
+                <img src="assests/images/laptops.png" class="md:h-[90vh]" alt="" />
+            </div>
+            <div class="md:my-auto  md:mx-4 px-6 py-4">
+                <div class="text-3xl font-semibold my-4">Surface Pro 9</div>
+                <div class="text-base font-normal my-4">
+                    Tablet versatility and laptop power — all in one ultra-portable
+                    device
+                </div>
+                <button class="text-base text-white font-semibold bg-[#0067b8] border-none px-3 py-2.5">
+                    Learn more
+                </button>
+            </div>
+        </div>
+
+        <div class="features flex flex-col items-center my-12 md:flex-row md:justify-center text-center">
+            <div class="my-4 md:mx-12">
+                <img src="assests/images/Link-List-Icons-Microsoft-365 (1).svg" class="m-auto my-2 h-12" alt="" />
+                <div class="underline text-[#0067b8]">Choose your Microsoft 365</div>
+            </div>
+            <div class="my-4 md:mx-12">
+                <img src="assests/images/Link-List-Icons-Xbox-Games-Consoles.svg" class="m-auto my-2 h-12" alt="" />
+                <div class="underline text-[#0067b8]">Shop Xbox games and consoles</div>
+            </div>
+            <div class="flex justify-around my-4">
+                <div class="mx-4 md:mx-12">
+                    <img src="assests/images/Link-List-Icons-Microsoft-365 (1).svg" class="m-auto my-2 h-12" alt="" />
+                    <div class="underline text-[#0067b8]">Get Windows 11</div>
+                </div>
+                <div class="mx-4 md:mx-12">
+                    <img src="assests/images/Link-List-Icons-Surface-Devices.svg" class="m-auto my-2 h-12" alt="" />
+                    <div class="underline text-[#0067b8]">Explore Surface devices</div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
